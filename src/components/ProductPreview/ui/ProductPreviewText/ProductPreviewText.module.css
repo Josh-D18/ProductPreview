@@ -4,16 +4,16 @@
 }
 
 .product-title {
-  @apply w-[295px] h-[64px] font-[700] leading-[32px] text-[#1C232B] text-[32px] not-italic my-2;
+  @apply w-[295px] h-[64px] font-[700] leading-[32px] text-[#1C232B] text-[32px] not-italic my-2 md:pr-[4rem] md:mb-6;
   font-family: "Fraunces";
 }
 
 .product-description {
-  @apply w-[295px] h-[92px] font-[500] text-[14px] leading-[23px] text-[#6C7289] my-1;
+  @apply w-[295px] h-[92px] font-[500] text-[14px] leading-[23px] text-[#6C7289] my-1 md:my-5 md:pr-[2rem] md:w-[237px];
 }
 
 .product-price-container {
-  @apply w-[194px] h-[32px] flex gap-4 mb-4;
+  @apply w-[194px] h-[32px] flex gap-4 my-4 items-center md:my-4;
 }
 
 .product-price-discount {
@@ -23,12 +23,14 @@
 
 .product-price-regular {
   @apply text-[13px] leading-[23px] font-[500] not-italic text-[#6C7289] line-through;
+  font-family: "Montserrat";
 }
 
 .product-button {
-  @apply w-[295px] h-[48px] rounded-[8px] bg-[#3D8168] flex flex-row items-center justify-center gap-3;
+  @apply w-[295px] h-[48px] rounded-[8px] bg-[#3D8168] flex flex-row items-center justify-center gap-3 md:my-3 hover:bg-[#1A4032];
 }
 
 .product-button-text {
   @apply text-[14px] text-[#FFFFFF] font-[700] leading-[17.07px] not-italic;
+  font-family: "Montserrat";
 }

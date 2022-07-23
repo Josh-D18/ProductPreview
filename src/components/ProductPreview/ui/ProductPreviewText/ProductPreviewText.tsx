@@ -6,12 +6,12 @@ import { ReactComponent as CartIcon } from "../../../../assets/images/icon-cart.
 
 const ProductPreviewText = () => {
   return (
-    <div className="flex flex-col bg-white p-3 text-left">
+    <div className="flex flex-col bg-white p-[20px] text-left md:gap-[7px] md:py-4 rounded-b-[10px] md:rounded-bl-[0px] md:rounded-r-[10px] ">
       <h1 className={styles["product-type"]}>Perfume</h1>
       <p className={styles["product-title"]}>Gabrielle Essence Eau De Parfum</p>
       <p className={styles["product-description"]}>
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
+        A floral, solar and voluptuous<br></br> interpretation composed by
+        Olivier<br></br> Polge, Perfumer-Creator for the House of CHANEL.
       </p>
       <div className={styles["product-price-container"]}>
         <p className={styles["product-price-discount"]}>$149.99</p>
