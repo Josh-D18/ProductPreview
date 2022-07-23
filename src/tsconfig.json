@@ -1,0 +1,27 @@
+{
+  "resolve": {
+    "extensions": [".ts", ".tsx", ".json"]
+  },
+  "compilerOptions": {
+    "baseUrl": "src",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": false,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "incremental": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", "custom.d.ts", "App.ts", "App.tsx"],
+  "exclude": ["node_modules"]
+}
