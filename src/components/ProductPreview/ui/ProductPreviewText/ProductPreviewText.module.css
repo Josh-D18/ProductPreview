@@ -9,7 +9,7 @@
 }
 
 .product-description {
-  @apply w-[295px] h-[92px] font-[500] text-[14px] leading-[23px] text-[#6C7289] my-1 md:my-5 md:pr-[2rem] md:w-[237px];
+  @apply w-[295px] h-[92px] font-[500] text-[14px] leading-[23px] text-[#6C7289] my-1 md:my-5  md:w-[237px] lg:pr-0 lg:my-3;
 }
 
 .product-price-container {
