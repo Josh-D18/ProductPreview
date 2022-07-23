@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState } from "react";
 // @ts-ignore
 import productImage from "../../../../assets/images/image-product-mobile.jpg";
 // @ts-ignore
